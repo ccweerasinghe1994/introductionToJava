@@ -2,12 +2,7 @@ public class MyFirstProgram {
     public static String job = "Dev";
 
     public static void main(String[] args) {
-        byte varByte = 123;
-        System.out.println("the byte variable : " + varByte);
-
-        byte newVarByte = -128;
-        System.out.println("the byte newVariable : " + newVarByte);
-
+//        -------------------------------------        ----------------------------------------
 
 
 
@@ -29,18 +24,46 @@ public class MyFirstProgram {
 
 /*
 
+//        -------------------------------------  using booleans to conditionally render a value      ----------------------------------------
+        int number_1 = 12;
+        int number_2 = 32;
+        System.out.println("number 1 is > number 2 : "+(number_1>number_2));
+        System.out.println("number 2 is > number 1 : "+(number_2>number_1));
+
+
+        //        -------------------------------------   booleans     ----------------------------------------
+
+        boolean isJavaFun = true;
+        System.out.println("Java is fun " + isJavaFun);
+
+        boolean isSkyIsOrange = false;
+        System.out.println("sky is orange " + isSkyIsOrange);
+
+
+//        -------------------------------------  char data type     ----------------------------------------
+
+        char letter = 'A';
+        System.out.println("this is a char : " + letter);
+
+        char unicodeVar = '\u0052';
+        System.out.println("this is a unicode char : " + unicodeVar);
+
+
 //        -------------------------------------     using bytes   ----------------------------------------
         byte varByte = 123;
         System.out.println("the byte variable : " + varByte);
 
         byte newVarByte = -128;
         System.out.println("the byte newVariable : " + newVarByte);
+
+
 //        -------------------------------------     using the float and double with exponents   ----------------------------------------
 //        float varFloat = 10e3f;
 //        System.out.println("number 10e3f :"+varFloat);
 //
 //        double varDouble = 10E-4d;
 //        System.out.println("number 10E -4d :"+varDouble);
+
 
 //        -------------------------------------     we can combine the static and local variables as well    ----------------------------------------
       String name = "dave";
