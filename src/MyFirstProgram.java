@@ -2,27 +2,36 @@ public class MyFirstProgram {
     public static String job = "Dev";
 
     public static void main(String[] args) {
-//        -------------------------------------        ----------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
+
+
+
+//        ------------------------------------- Arrays in java       ----------------------------------------
+        String[] carBrands = {"volvo", "BMW", "Ford", "Mazda"};
+        System.out.println("Car Brands : " + Arrays.toString(carBrands));
+// to get the length of the array
+        System.out.println(carBrands.length);
+//        to access individual items of the array
+        System.out.println(carBrands[0]);
+        System.out.println(carBrands[1]);
+        System.out.println(carBrands[2]);
+        System.out.println(carBrands[3]);
+//        we can change the elements of an array
+        carBrands[0] = "Tesla";
+        System.out.println(carBrands[0]);
+
+        System.out.println(carBrands[4]);
+
+//        -------------------------------------   using \ to escape characters     ----------------------------------------
+        String escape = "this is a \"escaping\"";
+        System.out.println(escape);
+
+
+//        -------------------------------------  Strings      ----------------------------------------
+        String name = "dave";
+        String newName = new String("Garry");
+        System.out.println("my name is " + newName);
+
 
 //        -------------------------------------  using booleans to conditionally render a value      ----------------------------------------
         int number_1 = 12;
